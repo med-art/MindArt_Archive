@@ -1,0 +1,73 @@
+    html {
+      -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    }
+
+.arcs4 {
+  height: 100%;
+
+  overscroll-behavior: none;
+  position: fixed;
+}
+
+
+.loadingclass {
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+
+}
+
+.startButton {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+  font-size: 4vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border-width: 4px;
+  border-color: white;
+  border-style: solid;;
+  border-radius: 5vmax;
+  width: 40vmax;
+  padding: 0;
+  height: 10vmax;
+
+}
+
+
+
+.select {
+  font-size: 1.5vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #4e4e4e;
+  background-color: white;
+  border-width: 3;
+
+  border-radius: 0.7vmax;
+  width: 12vmax;
+  height: 3vmax;
+
+}
+
+.box {
+  border-width: 3;
+  border-color: rgb(200, 200, 200);
+  border-radius: 0.7vmax;
+
+}

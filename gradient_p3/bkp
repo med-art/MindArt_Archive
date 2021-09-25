@@ -1,0 +1,11 @@
+// if (mouseY >= touchDownY) {
+//   for (var j = touchDownY; j < mouseY; j++) {
+//     newLayer.stroke(lerpColor(to, from, j / mouseY));
+//     newLayer.line(sel * colWidth, j, (sel * colWidth) + colWidth / div, j);
+//   }
+// } else {
+//   for (var j = touchDownY; j > mouseY; j--) {
+//     newLayer.stroke(lerpColor(to, from, j / mouseY));
+//     newLayer.line(sel * colWidth, j, (sel * colWidth) + colWidth / div, j);
+//   }
+// }
