@@ -1,0 +1,50 @@
+.sketch {
+  height: 100%;
+//  overscroll-behavior: none;
+  position: fixed;
+}
+
+
+.loadingclass {
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.select {
+  font-size: 1vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: #4e4e4e;
+  color: white;
+  border-width: 3;
+
+  border-radius: 0.7vmax;
+  width: 13vmax;
+  height: 4vmax;
+}
+
+
+.startButton {
+  font-size: 5vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border-width: 5px;
+  border-radius: 5vmax;
+  width: 28vmax;
+  height: 10vmax;
+}
+
+.box {
+  border-width: 0;
+  border-color: rgb(200, 200, 200);
+  border-radius: 0.7vmax;
+
+}

@@ -1,0 +1,85 @@
+html {
+  -webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+background-color: #469ede;
+overflow: hidden;
+
+
+}
+
+body{
+  padding: 0;
+  margin: 0;
+
+}
+
+.sketch {
+  height: 100%;
+//  overscroll-behavior: none;
+  position: fixed;
+}
+
+
+.loadingclass {
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.select {
+  font-size: 1vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 1200;
+  background-color: #4e4e4e;
+  color: white;
+  border-width: 3;
+  border-radius: 0.7vmax;
+  width: 13vmax;
+  height: 4vmax;
+  font-size: 1.7vmax;
+  height: 5vmax;
+  touch-action: none;
+}
+
+
+.startBtn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+  font-size: 4vmax;
+  font-family: "AvenirNext";
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: center;
+  background-color: white;
+  color: #469ede;
+  border-color: white;
+  border-width: 3px;
+
+  border-style: solid;
+  border-radius: 3vmax;
+  padding: 3vmax;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 3px white;
+}
+
+.box {
+  border-width: 0;
+  border-color: rgb(200, 200, 200);
+  border-radius: 0.7vmax;
+}

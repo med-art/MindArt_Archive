@@ -1,0 +1,3 @@
+function start() {
+  $(".startBtn").remove();
+}
